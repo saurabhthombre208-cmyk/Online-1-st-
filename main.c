@@ -15,7 +15,7 @@ void main()
 int i;
 unsigned int val;
 unsigned char a[8]="fan off";
-unsigned char b[8]="fan on"; 
+unsigned char b[8]="light on"; 
 float temp;
 
 TRISC=0X00;
@@ -128,6 +128,7 @@ lcd_data(*p++);
 
 
 }
+
 
 
 
